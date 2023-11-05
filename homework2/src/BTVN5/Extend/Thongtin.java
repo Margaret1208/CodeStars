@@ -7,7 +7,7 @@ public class Thongtin {
         Scanner sc = new Scanner(System.in);
         Employee[] ee = new Employee[20];
         int a ;
-        float max;
+        float max = 0;
         boolean flag = true;
         do{
             System.out.println("Lựa chọn: ");
@@ -27,28 +27,30 @@ public class Thongtin {
                         System.out.print("Nhập nhân viên thứ : " + i + "\n");
                         ee[i].Input();
                     }
-                    break;
+                    System.out.println("==========================================");
                 }
+                break;
                 case 2: {
-                    System.out.printf("%10s %10s %10s %10s %10s %10s %10s %10s \n","Mã nhân viên",
+                    System.out.printf("%10s %10s %10s %10s %12s %15s %15s %15s \n","Mã nhân viên",
                             "Tên nhân viên", "Vai trò", "Địa chỉ" ,"Số ngày công", "Lương cơ bản" ,"Số ngày nghỉ", "Lương tháng");
                     for (int i = 1; i <= 2 ; i++){
                         ee[i].Output();
                     }
+                    System.out.println("==========================================");
                 }
                 break;
                 case 3:{
-                    max = ee[0].luong();
                     for (int i =1; i < 3 ; i++){
                         max = ee[i].luong();
                         for(int j = i+1; j < 2; i++) {
-                            if (ee[i].luong() < ee[j].luong()) ;
-                            max = ee[j].luong();
+                            if (ee[i].luong() < ee[j].luong())
+                                max = ee[j].luong();
                         }
                     }
                     System.out.println("Mức lương cao nhất là: " + max);
-                    break;
+                    System.out.println("==========================================");
                 }
+                break;
                 default:
                     System.out.println("End");
                     flag = false;
