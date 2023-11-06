@@ -42,8 +42,25 @@
       <recent name="D:\CodeStar\ExcerciseMaven\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Login.TestsEx">
+  <component name="RunManager" selected="TestNG.Login (2)">
     <configuration name="Login (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ExcerciseMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AutomationTestsuite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AutomationTestsuite" />
+      <option name="MAIN_CLASS_NAME" value="AutomationTestsuite.Login" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ExcerciseMaven" />
       <extension name="coverage">
         <pattern>
@@ -88,24 +105,6 @@
       <option name="PACKAGE_NAME" value="AutomationTestsuite" />
       <option name="MAIN_CLASS_NAME" value="AutomationTestsuite.Login" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Login.Print" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ExcerciseMaven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AutomationTestsuite.Login" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="AutomationTestsuite" />
-      <option name="MAIN_CLASS_NAME" value="AutomationTestsuite.Login" />
-      <option name="METHOD_NAME" value="Print" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -167,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Login (2)" />
+        <item itemvalue="TestNG.Login" />
         <item itemvalue="TestNG.Login.TestsEx" />
         <item itemvalue="TestNG.Login (1)" />
         <item itemvalue="TestNG.Login" />
-        <item itemvalue="TestNG.Login" />
-        <item itemvalue="TestNG.Login.Print" />
       </list>
     </recent_temporary>
   </component>

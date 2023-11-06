@@ -11,6 +11,7 @@ public class CommonBase {
     public WebDriver initChromeDriver(String URL)
     {
         ChromeOptions options = new ChromeOptions();
+        options.addArguments("--remote-allow-origins=*");
         System.setProperty("webdriver.chrome.driver","D:\\CodeStar\\ExcerciseMaven\\chromedriver.exe");
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
