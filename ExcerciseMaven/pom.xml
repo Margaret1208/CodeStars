@@ -6,33 +6,49 @@
   <version>1.0-SNAPSHOT</version>
   <name>Archetype - ExcerciseMaven</name>
   <url>http://maven.apache.org</url>
+
   <properties>
-    <slf4j.version>1.7.25</slf4j.version>
-    <spark.version>1.6.3</spark.version>
-    <surefire-plugin.version>2.20</surefire-plugin.version>
     <maven.compiler.source>8</maven.compiler.source>
     <maven.compiler.target>8</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+
   <dependencies>
     <!-- Add slf4j API frontend binding with JUL backend -->
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
-      <version>${slf4j.version}</version>
+      <version>1.7.4</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>6.9.10</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+    <dependency>
+      <groupId>io.github.bonigarcia</groupId>
+      <artifactId>webdrivermanager</artifactId>
+      <version>3.6.0</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-jdk14 -->
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-jdk14</artifactId>
-      <version>${slf4j.version}</version>
-      <!-- When loaded at runtime this will wire up slf4j to the JUL backend -->
-      <scope>runtime</scope>
+      <version>1.7.25</version>
+      <scope>test</scope>
     </dependency>
+
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
-      <version>4.10.0</version>
+      <version>4.4.0</version>
     </dependency>
+
     <dependency>
       <groupId>org.testng</groupId>
       <artifactId>testng</artifactId>
