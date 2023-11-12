@@ -42,8 +42,8 @@
       <recent name="D:\CodeStar\ExcerciseMaven\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Login (2)">
-    <configuration name="Login (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Day8_Exercise2.TestsEx (1)">
+    <configuration name="Day8_Exercise2.TestsEx (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ExcerciseMaven" />
       <extension name="coverage">
         <pattern>
@@ -52,15 +52,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AutomationTestsuite" />
-      <option name="MAIN_CLASS_NAME" value="AutomationTestsuite.Login" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="AutomationTestsuite.Day8_Exercise2" />
+      <option name="METHOD_NAME" value="TestsEx" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Day8_Exercise2.TestsEx" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ExcerciseMaven" />
       <extension name="coverage">
         <pattern>
@@ -69,8 +70,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AutomationTestsuite" />
-      <option name="MAIN_CLASS_NAME" value="AutomationTestsuite.Login" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="AutomationTestsuite.Day8_Exercise2" />
+      <option name="METHOD_NAME" value="TestsEx" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -111,17 +113,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login.Test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Login.TestsEx (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ExcerciseMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AutomationTestsuite.Login" />
+          <option name="PATTERN" value="AutomationTestsuite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Testsuite" />
+      <option name="PACKAGE_NAME" value="AutomationTestsuite" />
       <option name="MAIN_CLASS_NAME" value="AutomationTestsuite.Login" />
-      <option name="METHOD_NAME" value="Test" />
+      <option name="METHOD_NAME" value="TestsEx" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -147,29 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="login" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ExcerciseMaven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AutomationTestsuite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Testsuite" />
-      <option name="MAIN_CLASS_NAME" value="AutomationTestsuite.login" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Login (2)" />
-        <item itemvalue="TestNG.Login" />
+        <item itemvalue="TestNG.Day8_Exercise2.TestsEx (1)" />
+        <item itemvalue="TestNG.Day8_Exercise2.TestsEx" />
+        <item itemvalue="TestNG.Login.TestsEx (1)" />
         <item itemvalue="TestNG.Login.TestsEx" />
-        <item itemvalue="TestNG.Login (1)" />
         <item itemvalue="TestNG.Login" />
       </list>
     </recent_temporary>
