@@ -45,8 +45,8 @@
       <recent name="AutomationTestsuite" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Day9_Exercise3.TestsEx">
-    <configuration name="Day8_Exercise2.TestsEx" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.LoginTest">
+    <configuration name="LoginTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ExcerciseMaven" />
       <extension name="coverage">
         <pattern>
@@ -55,8 +55,42 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AutomationTestsuite" />
-      <option name="MAIN_CLASS_NAME" value="AutomationTestsuite.Day8_Exercise2" />
-      <option name="METHOD_NAME" value="TestsEx" />
+      <option name="MAIN_CLASS_NAME" value="AutomationTestsuite.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ExcerciseMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AutomationTestsuite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AutomationTestsuite" />
+      <option name="MAIN_CLASS_NAME" value="AutomationTestsuite.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.LoginFailIncorrectPassAndEmail" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ExcerciseMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AutomationTestsuite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AutomationTestsuite" />
+      <option name="MAIN_CLASS_NAME" value="AutomationTestsuite.LoginTest" />
+      <option name="METHOD_NAME" value="LoginFailIncorrectPassAndEmail" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -64,7 +98,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day9_Exercise2.TestsEx" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.LoginSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ExcerciseMaven" />
       <extension name="coverage">
         <pattern>
@@ -73,8 +107,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AutomationTestsuite" />
-      <option name="MAIN_CLASS_NAME" value="AutomationTestsuite.Day9_Exercise2" />
-      <option name="METHOD_NAME" value="TestsEx" />
+      <option name="MAIN_CLASS_NAME" value="AutomationTestsuite.LoginTest" />
+      <option name="METHOD_NAME" value="LoginSuccessfully" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -82,7 +116,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day9_Exercise3.TestsEx" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.Logout" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ExcerciseMaven" />
       <extension name="coverage">
         <pattern>
@@ -91,44 +125,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AutomationTestsuite" />
-      <option name="MAIN_CLASS_NAME" value="AutomationTestsuite.Day9_Exercise3" />
-      <option name="METHOD_NAME" value="TestsEx" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day9_Exercise.TestsEx (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ExcerciseMaven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AutomationTestsuite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="AutomationTestsuite" />
-      <option name="MAIN_CLASS_NAME" value="AutomationTestsuite.Day9_Exercise" />
-      <option name="METHOD_NAME" value="TestsEx" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day9_Exercise.TestsEx" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ExcerciseMaven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AutomationTestsuite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="AutomationTestsuite" />
-      <option name="MAIN_CLASS_NAME" value="AutomationTestsuite.Day9_Exercise" />
-      <option name="METHOD_NAME" value="TestsEx" />
+      <option name="MAIN_CLASS_NAME" value="AutomationTestsuite.LoginTest" />
+      <option name="METHOD_NAME" value="Logout" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -138,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Day9_Exercise3.TestsEx" />
-        <item itemvalue="TestNG.Day9_Exercise2.TestsEx" />
-        <item itemvalue="TestNG.Day9_Exercise.TestsEx" />
-        <item itemvalue="TestNG.Day9_Exercise.TestsEx (1)" />
-        <item itemvalue="TestNG.Day8_Exercise2.TestsEx" />
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.LoginTest.LoginFailIncorrectPassAndEmail" />
+        <item itemvalue="TestNG.LoginTest (1)" />
+        <item itemvalue="TestNG.LoginTest.Logout" />
+        <item itemvalue="TestNG.LoginTest.LoginSuccessfully" />
       </list>
     </recent_temporary>
   </component>
