@@ -46,8 +46,8 @@
       <recent name="AutomationTestsuite" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest_Factory (1)">
-    <configuration name="LoginTest_Factory (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TrizenTest">
+    <configuration name="ClientTest (4)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ExcerciseMaven" />
       <extension name="coverage">
         <pattern>
@@ -56,7 +56,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AutomationTestsuite" />
-      <option name="MAIN_CLASS_NAME" value="AutomationTestsuite.LoginTest_Factory" />
+      <option name="MAIN_CLASS_NAME" value="AutomationTestsuite.ClientTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -64,7 +64,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest_Factory" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ClientTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ExcerciseMaven" />
       <extension name="coverage">
         <pattern>
@@ -73,7 +73,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AutomationTestsuite" />
-      <option name="MAIN_CLASS_NAME" value="AutomationTestsuite.LoginTest_Factory" />
+      <option name="MAIN_CLASS_NAME" value="AutomationTestsuite.ClientTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -81,7 +81,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest_Factory.LoginFailIncorrectEmail" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ClientTest.AddClientSuccessful" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ExcerciseMaven" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +90,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AutomationTestsuite" />
-      <option name="MAIN_CLASS_NAME" value="AutomationTestsuite.LoginTest_Factory" />
-      <option name="METHOD_NAME" value="LoginFailIncorrectEmail" />
+      <option name="MAIN_CLASS_NAME" value="AutomationTestsuite.ClientTest" />
+      <option name="METHOD_NAME" value="AddClientSuccessful" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -99,7 +99,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest_Factory.LoginSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TrizenTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ExcerciseMaven" />
       <extension name="coverage">
         <pattern>
@@ -108,16 +108,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AutomationTestsuite" />
-      <option name="MAIN_CLASS_NAME" value="AutomationTestsuite.LoginTest_Factory" />
-      <option name="METHOD_NAME" value="LoginSuccessfully" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="AutomationTestsuite.TrizenTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest_Factory.Logout" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TrizenTest.AddClientSuccessful" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ExcerciseMaven" />
       <extension name="coverage">
         <pattern>
@@ -126,8 +125,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AutomationTestsuite" />
-      <option name="MAIN_CLASS_NAME" value="AutomationTestsuite.LoginTest_Factory" />
-      <option name="METHOD_NAME" value="Logout" />
+      <option name="MAIN_CLASS_NAME" value="AutomationTestsuite.TrizenTest" />
+      <option name="METHOD_NAME" value="AddClientSuccessful" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -137,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest_Factory (1)" />
-        <item itemvalue="TestNG.LoginTest_Factory" />
-        <item itemvalue="TestNG.LoginTest_Factory.LoginSuccessfully" />
-        <item itemvalue="TestNG.LoginTest_Factory.Logout" />
-        <item itemvalue="TestNG.LoginTest_Factory.LoginFailIncorrectEmail" />
+        <item itemvalue="TestNG.TrizenTest" />
+        <item itemvalue="TestNG.TrizenTest.AddClientSuccessful" />
+        <item itemvalue="TestNG.ClientTest.AddClientSuccessful" />
+        <item itemvalue="TestNG.ClientTest" />
+        <item itemvalue="TestNG.ClientTest (4)" />
       </list>
     </recent_temporary>
   </component>

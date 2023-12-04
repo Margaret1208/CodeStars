@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 
 public class Ct_Account {
     public static String RISE_URL = "https://rise.fairsketch.com/signin";
+    public static String TRIZEN_URL = "https://techydevs.com/demos/themes/html/trizen-demo/trizen/index.html";
     public static By TEXT_EMAIL = By.xpath("//div[@class='form-group']/input[@id='email']");
     public static By TEXT_PASSWORD = By.xpath("//div[@class='form-group']/input[@id='password']");
     public static By BUTTON_SIGNIN = By.xpath("//button[text()='Sign in']");
