@@ -103,7 +103,7 @@ public class Login_Page {
 
         btnSAVE.click();
         Thread.sleep(2000);
-        driver.switchTo().alert().accept();
+//        driver.switchTo().alert().accept();
     }
     public void ReLoginPage() throws InterruptedException {
         btnDangNhap.click();

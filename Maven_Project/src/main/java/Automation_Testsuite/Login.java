@@ -5,8 +5,7 @@ import Automation_Common.CommonBase;
 import Automation_Contant.CT_Account;
 import org.testng.annotations.*;
 
-import static org.testng.AssertJUnit.assertFalse;
-import static org.testng.AssertJUnit.assertTrue;
+import static org.testng.AssertJUnit.*;
 
 public class Login extends CommonBase {
     @BeforeMethod
@@ -25,6 +24,9 @@ public class Login extends CommonBase {
     public void EditAcoount() throws InterruptedException {
         Login_Page login = new Login_Page(driver);
         login.EditFunction();
+        String actualText = driver.switchTo().alert().getText();
+        assertEquals(actualText, "Cập nhật mật khẩu thành công");
+        driver.switchTo().alert().accept();
     }
 
     @Test (priority = 3)
