@@ -17,8 +17,8 @@ public class Alert_Selenium extends CommonBase_Demo {
     @Test
     public void AlertSelenium() throws InterruptedException {
         click(By.xpath("//button[text()='Try it']"));
-        assertTrue(isElementPresent(By.xpath("//p[text()='Welcome to Selenium WebDriver Tutorials']")));
         Thread.sleep(5000);
+        assertTrue(isElementPresent(By.xpath("//p[text()='Welcome to Selenium WebDriver Tutorials']")));
         driver.switchTo().alert().accept();
     }
 
